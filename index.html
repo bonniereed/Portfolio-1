@@ -3,6 +3,11 @@
 
 <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Mono:ital,wght@1,600&display=swap"
+        rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <link rel="stylesheet" href="./Assets/style.css">
     <title>Bonnie Reed's Portfolio</title>
 </head>
@@ -10,29 +15,33 @@
 <body>
     <div class="container">
         <header class="header">
-            <h1>Bonnie's Portfolio</h1>
-            <nav>
-                <div class="example">
-                    <ul>
-                        <li>
-                            <a href="#about-Me">About Me</a>
-                        </li>
-                        <li>
-                            <a href="#another-project-before-bootcamp"> Another project before bootcamp </a>
-                        </li>
-                        <li>
-                            <a href="#first-homework-assignment"> First homework assignment </a>
-                        </li>
-                    </ul>
-                </div>
+            <div>
+                <h1>Bonnie's Portfolio</h1>
+            </div>
+
+            <nav class="example" id="example">
+                <ul>
+                    <li>
+                        <a href="#about-Me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#previous-Work"> Previous work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-Me"> Contact Me</a>
+                    </li>
+                </ul>
             </nav>
         </header>
         <div class="divcontainer">
             <section class=" content">
                 <article id="about-Me" class="about-Me">
-
-                    <h2>About Me</h2>
-
+                    <div>
+                        <h2>About Me</h2>
+                    </div>
+                    <div>
+                        <img class="aboutMe" src="./Assets/IMG_8767.png" alt="Image of Bonnie Reed" class="float-left">
+                    </div>
                     <p>
                         I started my journey through adulthood by becoming a cosmetologist.
                         I worked in a salon for several years and eventually wanted to challenge
@@ -41,38 +50,45 @@
                         I have been in IT support for 5 years. I have wanted to branch out further
                         and have a firm grasp on full stack web development which is what brought me
                         to the SMU bootcamp.
+
                     </p>
                 </article>
-                <article id="another-project-before-bootcamp" class="another-project-before-bootcamp">
-                    <h2>Image Gallery Project</h2>
-                    <p>
-                        The image gallery project was made with Basic HTML and CSS.
-                    </p>
-                    <img src="./Assets/image1.png" alt="Photo gallery project examp" class="float-right" />
-                    <img src="./Assets/image2.png" alt="Photo gallery project examp" class="float-right" />
+                <article id="previous-Work" class="previous-Work">
+                    <div>
+                        <h2>Previous Work</h2>
+                        <p>
+                            Here are some examples of previous projects I have worked on:
+                        </p>
+                        <div class="fts">
+                            <a href="https://bonniereed.github.io/googleClone/"><img src="./Assets/image1.png"
+                                    alt="Google Chrome clone example" /></a>
+                            <a href="https://bonniereed.github.io/SMUhomeworkHTMLGitCSS02/"><img
+                                    src="./Assets/image3.png" alt="Search engine optimization project example" /></a>
+                        </div>
+                    </div>
                 </article>
-                <article id="first-homework-assignment" class="first-homework-assignment">
-                    <h2>Social Media Marketing Project</h2>
-                    <p>
-                        This project was made to have Search Engine Optimization in mind when created. The HTML includes
-                        semantic tags and alt tags for accessibility.
-                    </p>
-                    <img src="./Assets/image3.png" alt="Search engine optimization project example" />
+                <article id="contact-Me" class="contact-Me">
+                    <div class="contactBox">
+                        <h2>Contact Me</h2>
+                    </div>
+                    <div class="contactBox">
+                        <a href="https://www.linkedin.com/in/bonniejeanreed/"> <img class="contactIcon"
+                                src="./Assets/linkedin.png" alt="LinkedIn icon" />
+                            <a href="https://github.com/bonniereed"> <img class="contactIcon" src="./Assets/github.png"
+                                    alt="Github icon" />
+                                <a href="mailto:bonniejeanreed@gmail.com"><img class="contactIcon"
+                                        src="./Assets/envelope.png" alt="Envelope icon" /></a>
+                    </div>
                 </article>
             </section>
         </div>
         <footer class="footer">
-            <h2>Made with ❤️️ by Bonnie Reed</h2>
-            <p>
-                &copy; Spudworx
-            </p>
-            <p>
-                <a href="https://github.com/bonniereed">Github Page</a>
-                <br>
-                <a href="bonniejeanreed@gmail.com">Drop a line</a>
-            </p>
+            <h2>🧁 Made by Bonnie Reed 🧁</h2>
         </footer>
-    </div>
+        </div>
+        
+    
+    
 </body>
 
 </html>
