@@ -4,6 +4,8 @@ Live GitHub page available here: https://bonniereed.github.io/Portfolio/
 
 In this project I have a fuctional navbar with multiple sections with my backstory, projects, and contact info.
 
+![screenshot of portfolio webpage](./Assets/Portfolio screenshot.png)
+
 ## Your Task
 
 Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses.
