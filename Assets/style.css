@@ -185,8 +185,13 @@ p {
   flex-direction: column;
 }
 
-.previous-Work img {
+.largerImage img {
   max-height: 200px;
+}
+
+.smallerImage img {
+  margin-top: 55px;
+  max-height: 150px;
 }
 
 .contact-Me img {
@@ -233,7 +238,7 @@ footer {
     background-color: #95e1d3;
   }
   body {
-    background-color: #95e1d3;
+    background-color: #eaffd0;
     width: 100%;
   }
   html {
