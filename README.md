@@ -4,7 +4,7 @@ Live GitHub page available here: https://bonniereed.github.io/Portfolio/
 
 In this project I have a fuctional navbar with multiple sections with my backstory, projects, and contact info.
 
-![screenshot of portfolio webpage](./Assets/Portfolio screenshot.png)
+<img width="319" alt="Portfolio screenshot" src="https://user-images.githubusercontent.com/46511972/129281304-dff74df6-15b2-4cf3-88f7-f8310278e23a.png">
 
 ## Your Task
 
