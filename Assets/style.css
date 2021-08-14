@@ -241,9 +241,6 @@ footer {
   }
   body {
     background-color: #95e1d3;
-  }
-  body {
-    background-color: #eaffd0;
     width: fit-content;
   }
   html {
@@ -277,5 +274,64 @@ footer {
   }
   .content {
     width: 100%;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-color: #fce38a;
+    width: fit-content;
+  }
+  html {
+    width: fit-content;
+  }
+  .content {
+    width: 100%;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body {
+    background-color: #fce38a;
+    width: fit-content;
+  }
+  html {
+    width: fit-content;
+  }
+  .content {
+    width: 100%;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .example {
+    display: none;
+  }
+  body {
+    background-color: #95e1d3;
+    width: fit-content;
+  }
+  html {
+    width: fit-content;
+  }
+  .content {
+    width: 100%;
+  }
+
+  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .example {
+      display: none;
+    }
+    body {
+      background-color: #95e1d3;
+      width: fit-content;
+    }
+    html {
+      width: fit-content;
+    }
+    .content {
+      width: 100%;
+    }
   }
 }
